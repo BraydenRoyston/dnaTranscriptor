@@ -10,8 +10,5 @@ for i in range(len(DNA)):
     if DNA[i] == 'T':
         mRNA = mRNA + 'A'
 
+print(DNA)
 print(mRNA)
-response=input("Do you want to translate this mRNA sequence?")
-if response=="Yes":
-    print("Beginning translation...")
-print("Program over.")
